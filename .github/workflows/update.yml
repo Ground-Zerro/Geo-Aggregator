@@ -1,0 +1,97 @@
+name: Update Geo Lists
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Build v2dat
+        run: |
+          git clone --depth=1 https://github.com/urlesistiana/v2dat.git /tmp/v2dat_src
+          cd /tmp/v2dat_src && go build -o /tmp/v2dat .
+
+      - name: Download and extract geoip sources
+        run: |
+          mkdir -p temp_dat \
+                   temp/ip/loyalsoldier temp/ip/v2fly temp/ip/russia \
+                   temp/site/russia
+
+          fetch_dat() {
+            local url=$1 dest=$2
+            for i in 1 2 3; do
+              curl -fL --connect-timeout 30 --max-time 120 "$url" -o "$dest" && return 0
+              echo "  [попытка $i/3] ошибка: $url"
+              [ $i -lt 3 ] && sleep 30
+            done
+            echo "  ПРОПУЩЕНО: $url"
+            return 1
+          }
+
+          fetch_dat "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat" \
+            temp_dat/loyalsoldier-geoip.dat \
+            && /tmp/v2dat unpack geoip -o temp/ip/loyalsoldier temp_dat/loyalsoldier-geoip.dat || true
+
+          fetch_dat "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat" \
+            temp_dat/v2fly-geoip.dat \
+            && /tmp/v2dat unpack geoip -o temp/ip/v2fly temp_dat/v2fly-geoip.dat || true
+
+          fetch_dat "https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geoip.dat" \
+            temp_dat/russia-geoip.dat \
+            && /tmp/v2dat unpack geoip -o temp/ip/russia temp_dat/russia-geoip.dat || true
+
+          fetch_dat "https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geosite.dat" \
+            temp_dat/russia-geosite.dat \
+            && /tmp/v2dat unpack geosite -o temp/site/russia temp_dat/russia-geosite.dat || true
+
+      - name: Download and prepare text sources
+        run: python scripts/download_txt.py
+
+      - name: Clear previous source data
+        run: rm -rf source/ && mkdir source/
+
+      - name: Merge and deduplicate
+        run: python scripts/merge.py
+
+      - name: Generate index
+        env:
+          GEO_REPO: ${{ github.repository }}
+          GEO_BRANCH: ${{ github.ref_name }}
+        run: python scripts/generate_index.py
+
+      - name: Update README
+        env:
+          GEO_REPO: ${{ github.repository }}
+          GEO_BRANCH: ${{ github.ref_name }}
+        run: python scripts/generate_readme.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A source/ database.json database.json.gz README.md
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          LAST_MSG=$(git log -1 --pretty=%s 2>/dev/null || echo "")
+          if [[ "$LAST_MSG" == "chore: update geo lists"* ]]; then
+            git commit --amend -m "chore: update geo lists $(date -u +%Y-%m-%d)"
+          else
+            git commit -m "chore: update geo lists $(date -u +%Y-%m-%d)"
+          fi
+          git push --force origin HEAD

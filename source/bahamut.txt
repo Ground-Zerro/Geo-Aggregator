@@ -1,0 +1,5 @@
+bahamut.akamaized.net
+bahamut.com.tw
+gamer-cds.cdn.hinet.net
+gamer.com.tw
+gamer2-cds.cdn.hinet.net
