@@ -1,0 +1,4 @@
+archlinux.org
+archlinuxarm.org
+archlinuxcn.org
+pkgbuild.com
