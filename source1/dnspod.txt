@@ -1,0 +1,11 @@
+dns.pub
+dnspod.com
+dnspod.mobi
+dnspod.net
+dnspod.org
+dnsv2.com
+dnsv3.com
+dnsv4.com
+dnsv5.com
+doh.pub
+dot.pub
