@@ -1,0 +1,17 @@
+addthis.com
+addthiscdn.com
+addthisedge.com
+ateam-oracle.com
+bronto.com
+covid19-rx.org
+covid19rx.org
+custhelp.com
+java.com
+java.net
+oracle.com
+oraclecloud.com
+oraclefoundation.org
+oracleimg.com
+oracleinfinity.io
+sun.com
+virtualbox.org
