@@ -1,0 +1,9 @@
+cloudsync-prod.s3.amazonaws.com
+dawngate.com
+eastore.com
+lordofultima.com
+origin-a.akamaihd.net
+origin.com
+origin.tv
+rtm.tnt-ea.com
+ssl-lvlt.cdn.ea.com

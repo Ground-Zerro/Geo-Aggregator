@@ -1,0 +1,45 @@
+name: Update Geo Lists
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Go
+        uses: actions/setup-go@v5.5.0
+        with:
+          go-version: '1.22'
+          cache-dependency-path: scripts/go.sum
+
+      - name: Build
+        run: cd scripts && go build -o /tmp/geo-aggregator .
+
+      - name: Run
+        env:
+          GEO_REPO: ${{ github.repository }}
+          GEO_BRANCH: ${{ github.ref_name }}
+        run: /tmp/geo-aggregator
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A source[0-9]*/ db/ README.md geodat/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          LAST_MSG=$(git log -1 --pretty=%s 2>/dev/null || echo "")
+          if [[ "$LAST_MSG" == "chore: update geo lists"* ]]; then
+            git commit --amend -m "chore: update geo lists $(date -u +%Y-%m-%d)"
+          else
+            git commit -m "chore: update geo lists $(date -u +%Y-%m-%d)"
+          fi
+          git push --force origin HEAD

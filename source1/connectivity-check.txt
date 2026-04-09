@@ -1,0 +1,17 @@
+captive.apple.com
+connect.rom.miui.com
+connectivity-check.ubuntu.com
+connectivitycheck.gstatic.com
+connectivitycheck.platform.hicloud.com
+connectivitycheck.platform.hihonorcloud.com
+cp.cloudflare.com
+detectportal.firefox.com
+ipv6check-http.steamserver.net
+ipv6check-udp.steamserver.net
+msftconnecttest.com
+msftncsi.com
+network-test.debian.org
+networkcheck.kde.org
+ping.archlinux.org
+redirect.archlinux.org
+test.steampowered.com
