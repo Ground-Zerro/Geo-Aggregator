@@ -1,0 +1,11 @@
+dtci.co
+dtci.technology
+espn.api.edge.bamgrid.com
+espn.co.uk
+espn.com
+espn.hb.omtrdc.net
+espn.net
+espncdn.com
+espndotcom.tt.omtrdc.net
+espnqa.com
+watchespn.com

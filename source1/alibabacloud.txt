@@ -1,0 +1,10 @@
+account-cn.alibabacloud.com
+alibabacloud.co.in
+alibabacloud.com
+alibabacloud.com.au
+alibabacloud.com.my
+alibabacloud.com.sg
+alicloud.com
+api.alibabacloud.com
+cn.alibabacloud.com
+status.alibabacloud.com
