@@ -1,0 +1,4 @@
+ads-api.duolingo.com
+analytics.vpc.duolingo.com
+duolingo.com
+metrics.duolingo.com

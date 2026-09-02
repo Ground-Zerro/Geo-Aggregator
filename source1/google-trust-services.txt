@@ -1,0 +1,12 @@
+c.pki.goog
+clients1.google.com
+crl.pki.goog
+crls.pki.goog
+i.pki.goog
+o.pki.goog
+ocsp.pki.goog
+pki-goog.l.google.com
+pki.goog
+pki.google.com
+preprod-publicca.googleapis.com
+publicca.googleapis.com
