@@ -1,0 +1,2 @@
+qt-project.org
+qt.io

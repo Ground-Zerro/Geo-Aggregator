@@ -1,0 +1,2040 @@
+{
+  "version": 1,
+  "generated": "2026-09-06T07:38:32Z",
+  "base": "https://raw.githubusercontent.com/Ground-Zerro/Geo-Aggregator/main/",
+  "categories": [
+    {
+      "id": "social",
+      "name": "Соцсети"
+    },
+    {
+      "id": "messengers",
+      "name": "Мессенджеры и почта"
+    },
+    {
+      "id": "media",
+      "name": "Медиа и стриминг"
+    },
+    {
+      "id": "gaming",
+      "name": "Игры"
+    },
+    {
+      "id": "ai",
+      "name": "AI"
+    },
+    {
+      "id": "developer",
+      "name": "Разработка"
+    },
+    {
+      "id": "work",
+      "name": "Работа и офис"
+    },
+    {
+      "id": "cloud",
+      "name": "Облако и хостинг"
+    },
+    {
+      "id": "cdn",
+      "name": "CDN"
+    },
+    {
+      "id": "storage",
+      "name": "Файловые хранилища"
+    },
+    {
+      "id": "shopping",
+      "name": "Магазины"
+    },
+    {
+      "id": "finance",
+      "name": "Финансы и криптовалюты"
+    },
+    {
+      "id": "education",
+      "name": "Образование и наука"
+    },
+    {
+      "id": "forums",
+      "name": "Форумы"
+    },
+    {
+      "id": "security",
+      "name": "Безопасность и сертификаты"
+    },
+    {
+      "id": "platforms",
+      "name": "Экосистемы и устройства"
+    },
+    {
+      "id": "tools",
+      "name": "Сервисы и утилиты"
+    },
+    {
+      "id": "ru",
+      "name": "Российские сервисы"
+    },
+    {
+      "id": "adult",
+      "name": "18+",
+      "sensitive": true
+    }
+  ],
+  "services": [
+    {
+      "id": "category-social-media",
+      "name": "Все соцсети",
+      "cat": "social",
+      "icon": "lucide-globe",
+      "src": "source1/category-social-media.txt"
+    },
+    {
+      "id": "vk",
+      "name": "ВКонтакте",
+      "cat": "social",
+      "src": "source2/vk.txt"
+    },
+    {
+      "id": "ok",
+      "name": "Одноклассники",
+      "cat": "social",
+      "icon": "odnoklassniki",
+      "src": "source2/ok.txt"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "cat": "social",
+      "src": "source1/facebook.txt"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "cat": "social",
+      "src": "source1/instagram.txt"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "cat": "social",
+      "src": "source2/threads.txt"
+    },
+    {
+      "id": "meta",
+      "name": "Meta (все сервисы)",
+      "cat": "social",
+      "src": "source2/meta.txt"
+    },
+    {
+      "id": "x",
+      "name": "X (Twitter)",
+      "cat": "social",
+      "src": "source2/x.txt"
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "cat": "social",
+      "src": "source1/bluesky.txt"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "cat": "social",
+      "src": "source2/tiktok.txt"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "cat": "social",
+      "src": "source2/reddit.txt"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "cat": "social",
+      "src": "source2/pinterest.txt"
+    },
+    {
+      "id": "tumblr",
+      "name": "Tumblr",
+      "cat": "social",
+      "src": "source2/tumblr.txt"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "cat": "social",
+      "icon": "lucide-briefcase-business",
+      "src": "source2/linkedin.txt"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "cat": "social",
+      "src": "source2/medium.txt"
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "cat": "social",
+      "src": "source2/patreon.txt"
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr",
+      "cat": "social",
+      "src": "source1/flickr.txt"
+    },
+    {
+      "id": "quora",
+      "name": "Quora",
+      "cat": "social",
+      "src": "source2/quora.txt"
+    },
+    {
+      "id": "category-communication",
+      "name": "Вся связь",
+      "cat": "messengers",
+      "icon": "lucide-globe",
+      "src": "source1/category-communication.txt"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "cat": "messengers",
+      "src": "source2/telegram.txt"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "cat": "messengers",
+      "src": "source2/whatsapp.txt"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "cat": "messengers",
+      "src": "source1/discord.txt"
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "cat": "messengers",
+      "src": "source2/signal.txt"
+    },
+    {
+      "id": "viber",
+      "name": "Viber",
+      "cat": "messengers",
+      "src": "source2/viber.txt"
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "cat": "messengers",
+      "src": "source2/messenger.txt"
+    },
+    {
+      "id": "matrix",
+      "name": "Matrix",
+      "cat": "messengers",
+      "src": "source2/matrix.txt"
+    },
+    {
+      "id": "teamspeak",
+      "name": "TeamSpeak",
+      "cat": "messengers",
+      "src": "source2/teamspeak.txt"
+    },
+    {
+      "id": "protonmail",
+      "name": "Proton Mail",
+      "cat": "messengers",
+      "icon": "proton",
+      "src": "source2/protonmail.txt"
+    },
+    {
+      "id": "tutanota",
+      "name": "Tuta",
+      "cat": "messengers",
+      "src": "source2/tutanota.txt"
+    },
+    {
+      "id": "mailru",
+      "name": "Mail.ru",
+      "cat": "messengers",
+      "icon": "maildotru",
+      "src": "source2/mailru.txt"
+    },
+    {
+      "id": "gravatar",
+      "name": "Gravatar",
+      "cat": "messengers",
+      "src": "source1/gravatar.txt"
+    },
+    {
+      "id": "category-media",
+      "name": "Всё медиа",
+      "cat": "media",
+      "icon": "lucide-film",
+      "src": "source1/category-media.txt"
+    },
+    {
+      "id": "category-entertainment",
+      "name": "Всё развлекательное",
+      "cat": "media",
+      "icon": "lucide-film",
+      "src": "source1/category-entertainment.txt"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "cat": "media",
+      "src": "source2/youtube.txt"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "cat": "media",
+      "src": "source2/netflix.txt"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "cat": "media",
+      "src": "source2/twitch.txt"
+    },
+    {
+      "id": "disney",
+      "name": "Disney+",
+      "cat": "media",
+      "src": "source1/disney.txt"
+    },
+    {
+      "id": "hbo",
+      "name": "HBO",
+      "cat": "media",
+      "src": "source1/hbo.txt"
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "cat": "media",
+      "src": "source1/hulu.txt"
+    },
+    {
+      "id": "primevideo",
+      "name": "Prime Video",
+      "cat": "media",
+      "src": "source2/primevideo.txt"
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "cat": "media",
+      "src": "source2/plex.txt"
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "cat": "media",
+      "src": "source1/dazn.txt"
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "cat": "media",
+      "src": "source2/vimeo.txt"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "cat": "media",
+      "src": "source2/spotify.txt"
+    },
+    {
+      "id": "apple-music",
+      "name": "Apple Music",
+      "cat": "media",
+      "icon": "applemusic",
+      "src": "source1/apple-music.txt"
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "cat": "media",
+      "src": "source1/deezer.txt"
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal",
+      "cat": "media",
+      "src": "source2/tidal.txt"
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "cat": "media",
+      "src": "source2/soundcloud.txt"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "cat": "media",
+      "src": "source1/bbc.txt"
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB",
+      "cat": "media",
+      "icon": "lucide-film",
+      "src": "source2/tmdb.txt"
+    },
+    {
+      "id": "wikimedia",
+      "name": "Wikipedia",
+      "cat": "media",
+      "icon": "wikipedia",
+      "src": "source2/wikimedia.txt"
+    },
+    {
+      "id": "kinopoisk",
+      "name": "Кинопоиск",
+      "cat": "media",
+      "src": "source1/kinopoisk.txt"
+    },
+    {
+      "id": "kinopub",
+      "name": "Kino.pub",
+      "cat": "media",
+      "src": "source1/kinopub.txt"
+    },
+    {
+      "id": "rutube",
+      "name": "RuTube",
+      "cat": "media",
+      "src": "source2/rutube.txt"
+    },
+    {
+      "id": "okko",
+      "name": "Okko",
+      "cat": "media",
+      "src": "source2/okko.txt"
+    },
+    {
+      "id": "wink",
+      "name": "Wink",
+      "cat": "media",
+      "src": "source2/wink.txt"
+    },
+    {
+      "id": "category-public-tracker",
+      "name": "Торрент-трекеры",
+      "cat": "media",
+      "icon": "bittorrent",
+      "src": "source1/category-public-tracker.txt"
+    },
+    {
+      "id": "rutracker",
+      "name": "RuTracker",
+      "cat": "media",
+      "src": "source2/rutracker.txt"
+    },
+    {
+      "id": "1337x",
+      "name": "1337x",
+      "cat": "media",
+      "src": "source1/1337x.txt"
+    },
+    {
+      "id": "piratebay",
+      "name": "The Pirate Bay",
+      "cat": "media",
+      "src": "source2/piratebay.txt"
+    },
+    {
+      "id": "category-games",
+      "name": "Все игры",
+      "cat": "gaming",
+      "icon": "lucide-gamepad-2",
+      "src": "source1/category-games.txt"
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "cat": "gaming",
+      "src": "source2/steam.txt"
+    },
+    {
+      "id": "epicgames",
+      "name": "Epic Games",
+      "cat": "gaming",
+      "src": "source1/epicgames.txt"
+    },
+    {
+      "id": "gog",
+      "name": "GOG",
+      "cat": "gaming",
+      "icon": "gogdotcom",
+      "src": "source1/gog.txt"
+    },
+    {
+      "id": "origin",
+      "name": "EA App / Origin",
+      "cat": "gaming",
+      "src": "source2/origin.txt"
+    },
+    {
+      "id": "ea",
+      "name": "EA",
+      "cat": "gaming",
+      "src": "source1/ea.txt"
+    },
+    {
+      "id": "ubisoft",
+      "name": "Ubisoft",
+      "cat": "gaming",
+      "src": "source2/ubisoft.txt"
+    },
+    {
+      "id": "blizzard",
+      "name": "Blizzard",
+      "cat": "gaming",
+      "icon": "lucide-gamepad-2",
+      "src": "source1/blizzard.txt"
+    },
+    {
+      "id": "activision-blizzard",
+      "name": "Activision Blizzard",
+      "cat": "gaming",
+      "icon": "activision",
+      "src": "source1/activision-blizzard.txt"
+    },
+    {
+      "id": "riot",
+      "name": "Riot Games",
+      "cat": "gaming",
+      "icon": "riotgames",
+      "src": "source2/riot.txt"
+    },
+    {
+      "id": "rockstar",
+      "name": "Rockstar Games",
+      "cat": "gaming",
+      "icon": "rockstargames",
+      "src": "source2/rockstar.txt"
+    },
+    {
+      "id": "bethesda",
+      "name": "Bethesda",
+      "cat": "gaming",
+      "src": "source1/bethesda.txt"
+    },
+    {
+      "id": "take-two",
+      "name": "Take-Two",
+      "cat": "gaming",
+      "icon": "taketwointeractivesoftware",
+      "src": "source2/take-two.txt"
+    },
+    {
+      "id": "2kgames",
+      "name": "2K Games",
+      "cat": "gaming",
+      "icon": "2k",
+      "src": "source1/2kgames.txt"
+    },
+    {
+      "id": "konami",
+      "name": "Konami",
+      "cat": "gaming",
+      "src": "source1/konami.txt"
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "cat": "gaming",
+      "icon": "lucide-gamepad-2",
+      "src": "source2/nintendo.txt"
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation",
+      "cat": "gaming",
+      "src": "source2/playstation.txt"
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox",
+      "cat": "gaming",
+      "src": "source2/xbox.txt"
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "cat": "gaming",
+      "src": "source2/roblox.txt"
+    },
+    {
+      "id": "mojang",
+      "name": "Minecraft",
+      "cat": "gaming",
+      "icon": "minecraft",
+      "src": "source2/mojang.txt"
+    },
+    {
+      "id": "supercell",
+      "name": "Supercell",
+      "cat": "gaming",
+      "src": "source2/supercell.txt"
+    },
+    {
+      "id": "wargaming",
+      "name": "Wargaming",
+      "cat": "gaming",
+      "src": "source2/wargaming.txt"
+    },
+    {
+      "id": "gaijin",
+      "name": "Gaijin",
+      "cat": "gaming",
+      "src": "source1/gaijin.txt"
+    },
+    {
+      "id": "hoyoverse",
+      "name": "HoYoverse",
+      "cat": "gaming",
+      "src": "source1/hoyoverse.txt"
+    },
+    {
+      "id": "pubg",
+      "name": "PUBG",
+      "cat": "gaming",
+      "src": "source2/pubg.txt"
+    },
+    {
+      "id": "escapefromtarkov",
+      "name": "Escape from Tarkov",
+      "cat": "gaming",
+      "icon": "lucide-gamepad-2",
+      "src": "source1/escapefromtarkov.txt"
+    },
+    {
+      "id": "vrchat",
+      "name": "VRChat",
+      "cat": "gaming",
+      "src": "source2/vrchat.txt"
+    },
+    {
+      "id": "oculus",
+      "name": "Oculus / Quest",
+      "cat": "gaming",
+      "src": "source2/oculus.txt"
+    },
+    {
+      "id": "faceit",
+      "name": "FACEIT",
+      "cat": "gaming",
+      "src": "source1/faceit.txt"
+    },
+    {
+      "id": "curseforge",
+      "name": "CurseForge",
+      "cat": "gaming",
+      "src": "source1/curseforge.txt"
+    },
+    {
+      "id": "modrinth",
+      "name": "Modrinth",
+      "cat": "gaming",
+      "src": "source2/modrinth.txt"
+    },
+    {
+      "id": "itchio",
+      "name": "itch.io",
+      "cat": "gaming",
+      "icon": "itchdotio",
+      "src": "source1/itchio.txt"
+    },
+    {
+      "id": "humblebundle",
+      "name": "Humble Bundle",
+      "cat": "gaming",
+      "src": "source1/humblebundle.txt"
+    },
+    {
+      "id": "category-ai",
+      "name": "Все AI-сервисы",
+      "cat": "ai",
+      "icon": "lucide-sparkles",
+      "src": "source1/category-ai.txt"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "cat": "ai",
+      "src": "source2/openai.txt"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic / Claude",
+      "cat": "ai",
+      "src": "source1/anthropic.txt"
+    },
+    {
+      "id": "google-gemini",
+      "name": "Gemini",
+      "cat": "ai",
+      "icon": "googlegemini",
+      "src": "source1/google-gemini.txt"
+    },
+    {
+      "id": "google-deepmind",
+      "name": "DeepMind",
+      "cat": "ai",
+      "icon": "deepmind",
+      "src": "source1/google-deepmind.txt"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "cat": "ai",
+      "icon": "githubcopilot",
+      "src": "source1/github-copilot.txt"
+    },
+    {
+      "id": "xai",
+      "name": "Grok (xAI)",
+      "cat": "ai",
+      "icon": "x",
+      "src": "source2/xai.txt"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "cat": "ai",
+      "src": "source2/perplexity.txt"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "cat": "ai",
+      "src": "source1/deepseek.txt"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "cat": "ai",
+      "src": "source1/huggingface.txt"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "cat": "ai",
+      "src": "source1/cursor.txt"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "cat": "ai",
+      "src": "source2/windsurf.txt"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "cat": "ai",
+      "src": "source1/elevenlabs.txt"
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "cat": "ai",
+      "src": "source2/poe.txt"
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "cat": "ai",
+      "src": "source1/groq.txt"
+    },
+    {
+      "id": "category-dev",
+      "name": "Всё для разработки",
+      "cat": "developer",
+      "icon": "lucide-cpu",
+      "src": "source1/category-dev.txt"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "cat": "developer",
+      "src": "source1/github.txt"
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "cat": "developer",
+      "src": "source1/gitlab.txt"
+    },
+    {
+      "id": "codeberg",
+      "name": "Codeberg",
+      "cat": "developer",
+      "src": "source1/codeberg.txt"
+    },
+    {
+      "id": "stackexchange",
+      "name": "Stack Exchange",
+      "cat": "developer",
+      "src": "source2/stackexchange.txt"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "cat": "developer",
+      "src": "source1/docker.txt"
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "cat": "developer",
+      "src": "source1/kubernetes.txt"
+    },
+    {
+      "id": "npmjs",
+      "name": "npm",
+      "cat": "developer",
+      "icon": "npm",
+      "src": "source2/npmjs.txt"
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "cat": "developer",
+      "icon": "nodedotjs",
+      "src": "source2/nodejs.txt"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "cat": "developer",
+      "src": "source2/python.txt"
+    },
+    {
+      "id": "golang",
+      "name": "Go",
+      "cat": "developer",
+      "icon": "go",
+      "src": "source1/golang.txt"
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "cat": "developer",
+      "src": "source2/rust.txt"
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "cat": "developer",
+      "src": "source2/ruby.txt"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "cat": "developer",
+      "src": "source1/java.txt"
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "cat": "developer",
+      "src": "source2/swift.txt"
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "cat": "developer",
+      "src": "source1/dart.txt"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "cat": "developer",
+      "src": "source1/flutter.txt"
+    },
+    {
+      "id": "android",
+      "name": "Android",
+      "cat": "developer",
+      "src": "source1/android.txt"
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains",
+      "cat": "developer",
+      "src": "source1/jetbrains.txt"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "cat": "developer",
+      "src": "source2/vercel.txt"
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "cat": "developer",
+      "src": "source2/sentry.txt"
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "cat": "developer",
+      "src": "source2/mongodb.txt"
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "cat": "developer",
+      "src": "source2/redis.txt"
+    },
+    {
+      "id": "nginx",
+      "name": "nginx",
+      "cat": "developer",
+      "src": "source2/nginx.txt"
+    },
+    {
+      "id": "homebrew",
+      "name": "Homebrew",
+      "cat": "developer",
+      "src": "source1/homebrew.txt"
+    },
+    {
+      "id": "archlinux",
+      "name": "Arch Linux",
+      "cat": "developer",
+      "src": "source1/archlinux.txt"
+    },
+    {
+      "id": "debian",
+      "name": "Debian",
+      "cat": "developer",
+      "src": "source1/debian.txt"
+    },
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "cat": "developer",
+      "src": "source2/ubuntu.txt"
+    },
+    {
+      "id": "fedora",
+      "name": "Fedora",
+      "cat": "developer",
+      "src": "source1/fedora.txt"
+    },
+    {
+      "id": "redhat",
+      "name": "Red Hat",
+      "cat": "developer",
+      "src": "source2/redhat.txt"
+    },
+    {
+      "id": "nixos",
+      "name": "NixOS",
+      "cat": "developer",
+      "src": "source2/nixos.txt"
+    },
+    {
+      "id": "openwrt",
+      "name": "OpenWrt",
+      "cat": "developer",
+      "src": "source2/openwrt.txt"
+    },
+    {
+      "id": "kernel",
+      "name": "Linux Kernel",
+      "cat": "developer",
+      "icon": "linux",
+      "src": "source1/kernel.txt"
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress",
+      "cat": "developer",
+      "src": "source2/wordpress.txt"
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "cat": "developer",
+      "src": "source2/unity.txt"
+    },
+    {
+      "id": "hashicorp",
+      "name": "HashiCorp",
+      "cat": "developer",
+      "src": "source1/hashicorp.txt"
+    },
+    {
+      "id": "gitbook",
+      "name": "GitBook",
+      "cat": "developer",
+      "src": "source1/gitbook.txt"
+    },
+    {
+      "id": "readthedocs",
+      "name": "Read the Docs",
+      "cat": "developer",
+      "src": "source2/readthedocs.txt"
+    },
+    {
+      "id": "canonical",
+      "name": "Canonical",
+      "cat": "developer",
+      "src": "source1/canonical.txt"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "cat": "work",
+      "src": "source2/slack.txt"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "cat": "work",
+      "src": "source2/zoom.txt"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "cat": "work",
+      "src": "source2/notion.txt"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "cat": "work",
+      "src": "source2/trello.txt"
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "cat": "work",
+      "src": "source1/atlassian.txt"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "cat": "work",
+      "src": "source1/figma.txt"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "cat": "work",
+      "src": "source1/canva.txt"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "cat": "work",
+      "src": "source1/adobe.txt"
+    },
+    {
+      "id": "teamviewer",
+      "name": "TeamViewer",
+      "cat": "work",
+      "src": "source2/teamviewer.txt"
+    },
+    {
+      "id": "category-remote-control",
+      "name": "Удалённый доступ",
+      "cat": "work",
+      "icon": "lucide-globe",
+      "src": "source1/category-remote-control.txt"
+    },
+    {
+      "id": "discourse",
+      "name": "Discourse",
+      "cat": "work",
+      "src": "source1/discourse.txt"
+    },
+    {
+      "id": "aws",
+      "name": "Amazon AWS",
+      "cat": "cloud",
+      "icon": "amazonwebservices",
+      "src": "source1/aws.txt"
+    },
+    {
+      "id": "azure",
+      "name": "Microsoft Azure",
+      "cat": "cloud",
+      "src": "source1/azure.txt"
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "cat": "cloud",
+      "src": "source2/oracle.txt"
+    },
+    {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "cat": "cloud",
+      "src": "source1/digitalocean.txt"
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "cat": "cloud",
+      "src": "source1/hetzner.txt"
+    },
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "cat": "cloud",
+      "src": "source1/heroku.txt"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "cat": "cloud",
+      "src": "source2/netlify.txt"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "cat": "cloud",
+      "src": "source1/firebase.txt"
+    },
+    {
+      "id": "category-cdn",
+      "name": "Все CDN",
+      "cat": "cdn",
+      "icon": "lucide-globe",
+      "src": "source1/category-cdn.txt"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "cat": "cdn",
+      "src": "source1/cloudflare.txt"
+    },
+    {
+      "id": "akamai",
+      "name": "Akamai",
+      "cat": "cdn",
+      "src": "source1/akamai.txt"
+    },
+    {
+      "id": "fastly",
+      "name": "Fastly",
+      "cat": "cdn",
+      "src": "source1/fastly.txt"
+    },
+    {
+      "id": "jsdelivr",
+      "name": "jsDelivr",
+      "cat": "cdn",
+      "src": "source1/jsdelivr.txt"
+    },
+    {
+      "id": "cdn77",
+      "name": "CDN77",
+      "cat": "cdn",
+      "src": "source1/cdn77.txt"
+    },
+    {
+      "id": "stackpath",
+      "name": "StackPath",
+      "cat": "cdn",
+      "src": "source2/stackpath.txt"
+    },
+    {
+      "id": "limelight",
+      "name": "Limelight",
+      "cat": "cdn",
+      "src": "source2/limelight.txt"
+    },
+    {
+      "id": "imgix",
+      "name": "imgix",
+      "cat": "cdn",
+      "src": "source1/imgix.txt"
+    },
+    {
+      "id": "category-netdisk",
+      "name": "Все хранилища",
+      "cat": "storage",
+      "icon": "lucide-globe",
+      "src": "source1/category-netdisk.txt"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "cat": "storage",
+      "src": "source1/dropbox.txt"
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "cat": "storage",
+      "src": "source2/onedrive.txt"
+    },
+    {
+      "id": "icloud",
+      "name": "iCloud",
+      "cat": "storage",
+      "src": "source1/icloud.txt"
+    },
+    {
+      "id": "mega",
+      "name": "MEGA",
+      "cat": "storage",
+      "src": "source2/mega.txt"
+    },
+    {
+      "id": "terabox",
+      "name": "TeraBox",
+      "cat": "storage",
+      "src": "source2/terabox.txt"
+    },
+    {
+      "id": "pikpak",
+      "name": "PikPak",
+      "cat": "storage",
+      "src": "source2/pikpak.txt"
+    },
+    {
+      "id": "category-ecommerce",
+      "name": "Все магазины",
+      "cat": "shopping",
+      "icon": "lucide-globe",
+      "src": "source1/category-ecommerce.txt"
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "cat": "shopping",
+      "src": "source1/amazon.txt"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "cat": "shopping",
+      "src": "source1/ebay.txt"
+    },
+    {
+      "id": "ozon",
+      "name": "Ozon",
+      "cat": "shopping",
+      "src": "source2/ozon.txt"
+    },
+    {
+      "id": "wildberries",
+      "name": "Wildberries",
+      "cat": "shopping",
+      "src": "source2/wildberries.txt"
+    },
+    {
+      "id": "avito",
+      "name": "Avito",
+      "cat": "shopping",
+      "src": "source1/avito.txt"
+    },
+    {
+      "id": "cian",
+      "name": "Циан",
+      "cat": "shopping",
+      "src": "source1/cian.txt"
+    },
+    {
+      "id": "autoru",
+      "name": "Авто.ру",
+      "cat": "shopping",
+      "src": "source1/autoru.txt"
+    },
+    {
+      "id": "x5",
+      "name": "X5 Group",
+      "cat": "shopping",
+      "src": "source2/x5.txt"
+    },
+    {
+      "id": "magnit",
+      "name": "Магнит",
+      "cat": "shopping",
+      "src": "source2/magnit.txt"
+    },
+    {
+      "id": "mvideo",
+      "name": "М.Видео",
+      "cat": "shopping",
+      "src": "source2/mvideo.txt"
+    },
+    {
+      "id": "funpay",
+      "name": "FunPay",
+      "cat": "shopping",
+      "src": "source1/funpay.txt"
+    },
+    {
+      "id": "ggsel",
+      "name": "GGSel",
+      "cat": "shopping",
+      "src": "source1/ggsel.txt"
+    },
+    {
+      "id": "eneba",
+      "name": "Eneba",
+      "cat": "shopping",
+      "src": "source1/eneba.txt"
+    },
+    {
+      "id": "flowwow",
+      "name": "Flowwow",
+      "cat": "shopping",
+      "src": "source1/flowwow.txt"
+    },
+    {
+      "id": "ikea",
+      "name": "IKEA",
+      "cat": "shopping",
+      "src": "source1/ikea.txt"
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "cat": "shopping",
+      "src": "source2/nike.txt"
+    },
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "cat": "shopping",
+      "src": "source1/adidas.txt"
+    },
+    {
+      "id": "booking",
+      "name": "Booking.com",
+      "cat": "shopping",
+      "icon": "bookingdotcom",
+      "src": "source1/booking.txt"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "cat": "shopping",
+      "src": "source1/airbnb.txt"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "cat": "shopping",
+      "src": "source2/shopify.txt"
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "cat": "shopping",
+      "src": "source2/walmart.txt"
+    },
+    {
+      "id": "bestbuy",
+      "name": "Best Buy",
+      "cat": "shopping",
+      "src": "source1/bestbuy.txt"
+    },
+    {
+      "id": "craigslist",
+      "name": "Craigslist",
+      "cat": "shopping",
+      "src": "source1/craigslist.txt"
+    },
+    {
+      "id": "aviasales",
+      "name": "Aviasales",
+      "cat": "shopping",
+      "src": "source1/aviasales.txt"
+    },
+    {
+      "id": "category-finance",
+      "name": "Все финансы",
+      "cat": "finance",
+      "icon": "lucide-globe",
+      "src": "source1/category-finance.txt"
+    },
+    {
+      "id": "category-cryptocurrency",
+      "name": "Все криптосервисы",
+      "cat": "finance",
+      "icon": "lucide-globe",
+      "src": "source1/category-cryptocurrency.txt"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "cat": "finance",
+      "src": "source2/paypal.txt"
+    },
+    {
+      "id": "visa",
+      "name": "Visa",
+      "cat": "finance",
+      "src": "source2/visa.txt"
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard",
+      "cat": "finance",
+      "src": "source2/mastercard.txt"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "cat": "finance",
+      "src": "source2/stripe.txt"
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "cat": "finance",
+      "src": "source2/wise.txt"
+    },
+    {
+      "id": "sber",
+      "name": "Сбер",
+      "cat": "finance",
+      "icon": "sberbank",
+      "src": "source2/sber.txt"
+    },
+    {
+      "id": "tbank-ru",
+      "name": "Т-Банк",
+      "cat": "finance",
+      "icon": "tinkoff",
+      "src": "source2/tbank-ru.txt"
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "cat": "finance",
+      "src": "source1/binance.txt"
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "cat": "finance",
+      "src": "source1/bybit.txt"
+    },
+    {
+      "id": "okx",
+      "name": "OKX",
+      "cat": "finance",
+      "src": "source2/okx.txt"
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "cat": "finance",
+      "src": "source1/kraken.txt"
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "cat": "finance",
+      "src": "source1/ethereum.txt"
+    },
+    {
+      "id": "trustwallet",
+      "name": "Trust Wallet",
+      "cat": "finance",
+      "src": "source2/trustwallet.txt"
+    },
+    {
+      "id": "bestchange",
+      "name": "BestChange",
+      "cat": "finance",
+      "src": "source1/bestchange.txt"
+    },
+    {
+      "id": "category-scholar",
+      "name": "Всё образование",
+      "cat": "education",
+      "icon": "lucide-globe",
+      "src": "source1/category-scholar.txt"
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "cat": "education",
+      "icon": "googlescholar",
+      "src": "source1/google-scholar.txt"
+    },
+    {
+      "id": "sci-hub",
+      "name": "Sci-Hub",
+      "cat": "education",
+      "icon": "scihub",
+      "src": "source2/sci-hub.txt"
+    },
+    {
+      "id": "z-library",
+      "name": "Z-Library",
+      "cat": "education",
+      "icon": "zlibrary",
+      "src": "source2/z-library.txt"
+    },
+    {
+      "id": "libgen",
+      "name": "Library Genesis",
+      "cat": "education",
+      "src": "source2/libgen.txt"
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "cat": "education",
+      "src": "source1/coursera.txt"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "cat": "education",
+      "src": "source2/udemy.txt"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "cat": "education",
+      "src": "source1/duolingo.txt"
+    },
+    {
+      "id": "khanacademy",
+      "name": "Khan Academy",
+      "cat": "education",
+      "src": "source1/khanacademy.txt"
+    },
+    {
+      "id": "ieee",
+      "name": "IEEE",
+      "cat": "education",
+      "src": "source1/ieee.txt"
+    },
+    {
+      "id": "elsevier",
+      "name": "Elsevier",
+      "cat": "education",
+      "src": "source1/elsevier.txt"
+    },
+    {
+      "id": "springer",
+      "name": "Springer",
+      "cat": "education",
+      "src": "source2/springer.txt"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "cat": "education",
+      "src": "source1/cambridge.txt"
+    },
+    {
+      "id": "mit",
+      "name": "MIT",
+      "cat": "education",
+      "src": "source2/mit.txt"
+    },
+    {
+      "id": "doi",
+      "name": "DOI",
+      "cat": "education",
+      "src": "source1/doi.txt"
+    },
+    {
+      "id": "internet-archive",
+      "name": "Internet Archive",
+      "cat": "education",
+      "icon": "internetarchive",
+      "src": "source1/internet-archive.txt"
+    },
+    {
+      "id": "category-forums",
+      "name": "Все форумы",
+      "cat": "forums",
+      "icon": "lucide-globe",
+      "src": "source1/category-forums.txt"
+    },
+    {
+      "id": "habr",
+      "name": "Habr",
+      "cat": "forums",
+      "src": "source1/habr.txt"
+    },
+    {
+      "id": "4pda",
+      "name": "4PDA",
+      "cat": "forums",
+      "src": "source1/4pda.txt"
+    },
+    {
+      "id": "dzen",
+      "name": "Дзен",
+      "cat": "forums",
+      "src": "source1/dzen.txt"
+    },
+    {
+      "id": "livejournal",
+      "name": "LiveJournal",
+      "cat": "forums",
+      "src": "source2/livejournal.txt"
+    },
+    {
+      "id": "2ch",
+      "name": "2ch",
+      "cat": "forums",
+      "src": "source1/2ch.txt"
+    },
+    {
+      "id": "4chan",
+      "name": "4chan",
+      "cat": "forums",
+      "src": "source1/4chan.txt"
+    },
+    {
+      "id": "xda",
+      "name": "XDA Developers",
+      "cat": "forums",
+      "icon": "xdadevelopers",
+      "src": "source2/xda.txt"
+    },
+    {
+      "id": "linuxdo",
+      "name": "Linux.do",
+      "cat": "forums",
+      "src": "source2/linuxdo.txt"
+    },
+    {
+      "id": "nodeseek",
+      "name": "NodeSeek",
+      "cat": "forums",
+      "src": "source2/nodeseek.txt"
+    },
+    {
+      "id": "category-cas",
+      "name": "Все УЦ",
+      "cat": "security",
+      "icon": "lucide-globe",
+      "src": "source1/category-cas.txt"
+    },
+    {
+      "id": "letsencrypt",
+      "name": "Let's Encrypt",
+      "cat": "security",
+      "src": "source2/letsencrypt.txt"
+    },
+    {
+      "id": "digicert",
+      "name": "DigiCert",
+      "cat": "security",
+      "src": "source1/digicert.txt"
+    },
+    {
+      "id": "globalsign",
+      "name": "GlobalSign",
+      "cat": "security",
+      "src": "source1/globalsign.txt"
+    },
+    {
+      "id": "sectigo",
+      "name": "Sectigo",
+      "cat": "security",
+      "src": "source2/sectigo.txt"
+    },
+    {
+      "id": "amazontrust",
+      "name": "Amazon Trust",
+      "cat": "security",
+      "src": "source1/amazontrust.txt"
+    },
+    {
+      "id": "google-trust-services",
+      "name": "Google Trust Services",
+      "cat": "security",
+      "icon": "google",
+      "src": "source1/google-trust-services.txt"
+    },
+    {
+      "id": "category-antivirus",
+      "name": "Все антивирусы",
+      "cat": "security",
+      "icon": "lucide-globe",
+      "src": "source1/category-antivirus.txt"
+    },
+    {
+      "id": "kaspersky",
+      "name": "Kaspersky",
+      "cat": "security",
+      "src": "source1/kaspersky.txt"
+    },
+    {
+      "id": "drweb",
+      "name": "Dr.Web",
+      "cat": "security",
+      "src": "source1/drweb.txt"
+    },
+    {
+      "id": "eset",
+      "name": "ESET",
+      "cat": "security",
+      "src": "source1/eset.txt"
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "cat": "security",
+      "src": "source1/bitwarden.txt"
+    },
+    {
+      "id": "agilebits",
+      "name": "1Password",
+      "cat": "security",
+      "icon": "1password",
+      "src": "source1/agilebits.txt"
+    },
+    {
+      "id": "lastpass",
+      "name": "LastPass",
+      "cat": "security",
+      "src": "source2/lastpass.txt"
+    },
+    {
+      "id": "haveibeenpwned",
+      "name": "Have I Been Pwned",
+      "cat": "security",
+      "src": "source1/haveibeenpwned.txt"
+    },
+    {
+      "id": "torproject",
+      "name": "Tor Project",
+      "cat": "security",
+      "src": "source2/torproject.txt"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "cat": "platforms",
+      "src": "source1/google.txt"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "cat": "platforms",
+      "src": "source1/apple.txt"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "cat": "platforms",
+      "src": "source2/microsoft.txt"
+    },
+    {
+      "id": "yandex",
+      "name": "Яндекс",
+      "cat": "platforms",
+      "src": "source2/yandex.txt"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "cat": "platforms",
+      "src": "source2/samsung.txt"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi IoT / Mi Home",
+      "cat": "platforms",
+      "src": "source2/xiaomi.txt"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "cat": "platforms",
+      "src": "source2/nvidia.txt"
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "cat": "platforms",
+      "src": "source1/intel.txt"
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "cat": "platforms",
+      "src": "source1/amd.txt"
+    },
+    {
+      "id": "google-play",
+      "name": "Google Play",
+      "cat": "platforms",
+      "icon": "googleplay",
+      "src": "source1/google-play.txt"
+    },
+    {
+      "id": "f-droid",
+      "name": "F-Droid",
+      "cat": "platforms",
+      "icon": "fdroid",
+      "src": "source1/f-droid.txt"
+    },
+    {
+      "id": "apkpure",
+      "name": "APKPure",
+      "cat": "platforms",
+      "src": "source1/apkpure.txt"
+    },
+    {
+      "id": "duckduckgo",
+      "name": "DuckDuckGo",
+      "cat": "tools",
+      "src": "source1/duckduckgo.txt"
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "cat": "tools",
+      "icon": "firefoxbrowser",
+      "src": "source1/firefox.txt"
+    },
+    {
+      "id": "category-browser",
+      "name": "Все браузеры",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-browser.txt"
+    },
+    {
+      "id": "category-speedtest",
+      "name": "Замер скорости",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-speedtest.txt"
+    },
+    {
+      "id": "speedtest",
+      "name": "Speedtest",
+      "cat": "tools",
+      "src": "source2/speedtest.txt"
+    },
+    {
+      "id": "ookla-speedtest",
+      "name": "Ookla Speedtest",
+      "cat": "tools",
+      "icon": "speedtest",
+      "src": "source2/ookla-speedtest.txt"
+    },
+    {
+      "id": "category-ip-geo-detect",
+      "name": "Определение IP",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-ip-geo-detect.txt"
+    },
+    {
+      "id": "category-ddns",
+      "name": "Все DDNS",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-ddns.txt"
+    },
+    {
+      "id": "noip",
+      "name": "No-IP",
+      "cat": "tools",
+      "src": "source2/noip.txt"
+    },
+    {
+      "id": "dynu",
+      "name": "Dynu",
+      "cat": "tools",
+      "src": "source1/dynu.txt"
+    },
+    {
+      "id": "category-doh",
+      "name": "DNS over HTTPS",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-doh.txt"
+    },
+    {
+      "id": "category-ntp",
+      "name": "NTP-серверы",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-ntp.txt"
+    },
+    {
+      "id": "category-stun",
+      "name": "STUN-серверы",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-stun.txt"
+    },
+    {
+      "id": "category-urlshortner",
+      "name": "Сокращатели ссылок",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-urlshortner.txt"
+    },
+    {
+      "id": "bitly",
+      "name": "Bitly",
+      "cat": "tools",
+      "src": "source1/bitly.txt"
+    },
+    {
+      "id": "tinyurl",
+      "name": "TinyURL",
+      "cat": "tools",
+      "src": "source2/tinyurl.txt"
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "cat": "tools",
+      "src": "source2/tailscale.txt"
+    },
+    {
+      "id": "ngrok",
+      "name": "ngrok",
+      "cat": "tools",
+      "src": "source2/ngrok.txt"
+    },
+    {
+      "id": "category-web-archive",
+      "name": "Веб-архивы",
+      "cat": "tools",
+      "icon": "lucide-globe",
+      "src": "source1/category-web-archive.txt"
+    },
+    {
+      "id": "archive",
+      "name": "Archive.org",
+      "cat": "tools",
+      "icon": "internetarchive",
+      "src": "source1/archive.txt"
+    },
+    {
+      "id": "archivetoday",
+      "name": "archive.today",
+      "cat": "tools",
+      "src": "source1/archivetoday.txt"
+    },
+    {
+      "id": "category-ru",
+      "name": "Все российские сервисы",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-ru.txt"
+    },
+    {
+      "id": "itDog-russia-inside",
+      "name": "Доступны только из РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/itDog-russia-inside.txt"
+    },
+    {
+      "id": "itDog-russia-outside",
+      "name": "Недоступны из РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/itDog-russia-outside.txt"
+    },
+    {
+      "id": "category-gov-ru",
+      "name": "Госуслуги и ведомства",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-gov-ru.txt"
+    },
+    {
+      "id": "category-bank-ru",
+      "name": "Банки РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-bank-ru.txt"
+    },
+    {
+      "id": "category-ecommerce-ru",
+      "name": "Магазины РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-ecommerce-ru.txt"
+    },
+    {
+      "id": "category-retail-ru",
+      "name": "Ритейл РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-retail-ru.txt"
+    },
+    {
+      "id": "category-media-ru",
+      "name": "СМИ РФ",
+      "cat": "ru",
+      "icon": "lucide-film",
+      "src": "source1/category-media-ru.txt"
+    },
+    {
+      "id": "category-entertainment-ru",
+      "name": "Развлечения РФ",
+      "cat": "ru",
+      "icon": "lucide-film",
+      "src": "source1/category-entertainment-ru.txt"
+    },
+    {
+      "id": "category-tech-media-ru",
+      "name": "IT-медиа РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-tech-media-ru.txt"
+    },
+    {
+      "id": "category-travel-ru",
+      "name": "Путешествия РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-travel-ru.txt"
+    },
+    {
+      "id": "category-betting-ru",
+      "name": "Ставки РФ",
+      "cat": "ru",
+      "icon": "lucide-globe",
+      "src": "source1/category-betting-ru.txt"
+    },
+    {
+      "id": "mosmetro",
+      "name": "Московское метро",
+      "cat": "ru",
+      "src": "source2/mosmetro.txt"
+    },
+    {
+      "id": "category-porn",
+      "name": "Всё 18+",
+      "cat": "adult",
+      "icon": "lucide-globe",
+      "src": "source1/category-porn.txt"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+- id: social
+  name: Соцсети
+  tags:
+    - { tag: category-social-media, name: Все соцсети, icon: lucide-globe }
+    - { tag: vk, name: ВКонтакте }
+    - { tag: ok, name: Одноклассники, icon: odnoklassniki }
+    - { tag: facebook, name: Facebook }
+    - { tag: instagram, name: Instagram }
+    - { tag: threads, name: Threads }
+    - { tag: meta, name: Meta (все сервисы) }
+    - { tag: x, name: X (Twitter) }
+    - { tag: bluesky, name: Bluesky }
+    - { tag: tiktok, name: TikTok }
+    - { tag: reddit, name: Reddit }
+    - { tag: pinterest, name: Pinterest }
+    - { tag: tumblr, name: Tumblr }
+    - { tag: linkedin, name: LinkedIn, icon: lucide-briefcase-business }
+    - { tag: medium, name: Medium }
+    - { tag: patreon, name: Patreon }
+    - { tag: flickr, name: Flickr }
+    - { tag: quora, name: Quora }
+- id: messengers
+  name: Мессенджеры и почта
+  tags:
+    - { tag: category-communication, name: Вся связь, icon: lucide-globe }
+    - { tag: telegram, name: Telegram }
+    - { tag: whatsapp, name: WhatsApp }
+    - { tag: discord, name: Discord }
+    - { tag: signal, name: Signal }
+    - { tag: viber, name: Viber }
+    - { tag: messenger, name: Messenger }
+    - { tag: matrix, name: Matrix }
+    - { tag: teamspeak, name: TeamSpeak }
+    - { tag: protonmail, name: Proton Mail, icon: proton }
+    - { tag: tutanota, name: Tuta }
+    - { tag: mailru, name: Mail.ru, icon: maildotru }
+    - { tag: gravatar, name: Gravatar }
+- id: media
+  name: Медиа и стриминг
+  tags:
+    - { tag: category-media, name: Всё медиа, icon: lucide-film }
+    - { tag: category-entertainment, name: Всё развлекательное, icon: lucide-film }
+    - { tag: youtube, name: YouTube }
+    - { tag: netflix, name: Netflix }
+    - { tag: twitch, name: Twitch }
+    - { tag: disney, name: Disney+ }
+    - { tag: hbo, name: HBO }
+    - { tag: hulu, name: Hulu }
+    - { tag: primevideo, name: Prime Video }
+    - { tag: plex, name: Plex }
+    - { tag: dazn, name: DAZN }
+    - { tag: vimeo, name: Vimeo }
+    - { tag: spotify, name: Spotify }
+    - { tag: apple-music, name: Apple Music, icon: applemusic }
+    - { tag: deezer, name: Deezer }
+    - { tag: tidal, name: Tidal }
+    - { tag: soundcloud, name: SoundCloud }
+    - { tag: bbc, name: BBC }
+    - { tag: tmdb, name: TMDB, icon: lucide-film }
+    - { tag: wikimedia, name: Wikipedia, icon: wikipedia }
+    - { tag: kinopoisk, name: Кинопоиск }
+    - { tag: kinopub, name: Kino.pub }
+    - { tag: rutube, name: RuTube }
+    - { tag: okko, name: Okko }
+    - { tag: wink, name: Wink }
+    - { tag: category-public-tracker, name: Торрент-трекеры, icon: bittorrent }
+    - { tag: rutracker, name: RuTracker }
+    - 1337x
+    - { tag: piratebay, name: The Pirate Bay }
+- id: gaming
+  name: Игры
+  tags:
+    - { tag: category-games, name: Все игры, icon: lucide-gamepad-2 }
+    - { tag: steam, name: Steam }
+    - { tag: epicgames, name: Epic Games }
+    - { tag: gog, name: GOG, icon: gogdotcom }
+    - { tag: origin, name: EA App / Origin }
+    - { tag: ea, name: EA }
+    - { tag: ubisoft, name: Ubisoft }
+    - { tag: blizzard, name: Blizzard, icon: lucide-gamepad-2 }
+    - { tag: activision-blizzard, name: Activision Blizzard, icon: activision }
+    - { tag: riot, name: Riot Games, icon: riotgames }
+    - { tag: rockstar, name: Rockstar Games, icon: rockstargames }
+    - { tag: bethesda, name: Bethesda }
+    - { tag: take-two, name: Take-Two, icon: taketwointeractivesoftware }
+    - { tag: 2kgames, name: 2K Games, icon: 2k }
+    - { tag: konami, name: Konami }
+    - { tag: nintendo, name: Nintendo, icon: lucide-gamepad-2 }
+    - { tag: playstation, name: PlayStation }
+    - { tag: xbox, name: Xbox }
+    - { tag: roblox, name: Roblox }
+    - { tag: mojang, name: Minecraft, icon: minecraft }
+    - { tag: supercell, name: Supercell }
+    - { tag: wargaming, name: Wargaming }
+    - { tag: gaijin, name: Gaijin }
+    - { tag: hoyoverse, name: HoYoverse }
+    - { tag: pubg, name: PUBG }
+    - { tag: escapefromtarkov, name: Escape from Tarkov, icon: lucide-gamepad-2 }
+    - { tag: vrchat, name: VRChat }
+    - { tag: oculus, name: Oculus / Quest }
+    - { tag: faceit, name: FACEIT }
+    - { tag: curseforge, name: CurseForge }
+    - { tag: modrinth, name: Modrinth }
+    - { tag: itchio, name: itch.io, icon: itchdotio }
+    - { tag: humblebundle, name: Humble Bundle }
+- id: ai
+  name: AI
+  tags:
+    - { tag: category-ai, name: Все AI-сервисы, icon: lucide-sparkles }
+    - { tag: openai, name: OpenAI }
+    - { tag: anthropic, name: Anthropic / Claude }
+    - { tag: google-gemini, name: Gemini, icon: googlegemini }
+    - { tag: google-deepmind, name: DeepMind, icon: deepmind }
+    - { tag: github-copilot, name: GitHub Copilot, icon: githubcopilot }
+    - { tag: xai, name: Grok (xAI), icon: x }
+    - { tag: perplexity, name: Perplexity }
+    - { tag: deepseek, name: DeepSeek }
+    - { tag: huggingface, name: Hugging Face }
+    - { tag: cursor, name: Cursor }
+    - { tag: windsurf, name: Windsurf }
+    - { tag: elevenlabs, name: ElevenLabs }
+    - { tag: poe, name: Poe }
+    - { tag: groq, name: Groq }
+- id: developer
+  name: Разработка
+  tags:
+    - { tag: category-dev, name: Всё для разработки, icon: lucide-cpu }
+    - { tag: github, name: GitHub }
+    - { tag: gitlab, name: GitLab }
+    - { tag: codeberg, name: Codeberg }
+    - { tag: stackexchange, name: Stack Exchange }
+    - { tag: docker, name: Docker }
+    - { tag: kubernetes, name: Kubernetes }
+    - { tag: npmjs, name: npm, icon: npm }
+    - { tag: nodejs, name: Node.js, icon: nodedotjs }
+    - { tag: python, name: Python }
+    - { tag: golang, name: Go, icon: go }
+    - { tag: rust, name: Rust }
+    - { tag: ruby, name: Ruby }
+    - { tag: java, name: Java }
+    - { tag: swift, name: Swift }
+    - { tag: dart, name: Dart }
+    - { tag: flutter, name: Flutter }
+    - { tag: android, name: Android }
+    - { tag: jetbrains, name: JetBrains }
+    - { tag: vercel, name: Vercel }
+    - { tag: sentry, name: Sentry }
+    - { tag: mongodb, name: MongoDB }
+    - { tag: redis, name: Redis }
+    - nginx
+    - { tag: homebrew, name: Homebrew }
+    - { tag: archlinux, name: Arch Linux }
+    - { tag: debian, name: Debian }
+    - { tag: ubuntu, name: Ubuntu }
+    - { tag: fedora, name: Fedora }
+    - { tag: redhat, name: Red Hat }
+    - { tag: nixos, name: NixOS }
+    - { tag: openwrt, name: OpenWrt }
+    - { tag: kernel, name: Linux Kernel, icon: linux }
+    - { tag: wordpress, name: WordPress }
+    - { tag: unity, name: Unity }
+    - { tag: hashicorp, name: HashiCorp }
+    - { tag: gitbook, name: GitBook }
+    - { tag: readthedocs, name: Read the Docs }
+    - { tag: canonical, name: Canonical }
+- id: work
+  name: Работа и офис
+  tags:
+    - { tag: slack, name: Slack }
+    - { tag: zoom, name: Zoom }
+    - { tag: notion, name: Notion }
+    - { tag: trello, name: Trello }
+    - { tag: atlassian, name: Atlassian }
+    - { tag: figma, name: Figma }
+    - { tag: canva, name: Canva }
+    - { tag: adobe, name: Adobe }
+    - { tag: teamviewer, name: TeamViewer }
+    - { tag: category-remote-control, name: Удалённый доступ, icon: lucide-globe }
+    - { tag: discourse, name: Discourse }
+- id: cloud
+  name: Облако и хостинг
+  tags:
+    - { tag: aws, name: Amazon AWS, icon: amazonwebservices }
+    - { tag: azure, name: Microsoft Azure }
+    - { tag: oracle, name: Oracle }
+    - { tag: digitalocean, name: DigitalOcean }
+    - { tag: hetzner, name: Hetzner }
+    - { tag: heroku, name: Heroku }
+    - { tag: netlify, name: Netlify }
+    - { tag: firebase, name: Firebase }
+- id: cdn
+  name: CDN
+  tags:
+    - { tag: category-cdn, name: Все CDN, icon: lucide-globe }
+    - { tag: cloudflare, name: Cloudflare }
+    - { tag: akamai, name: Akamai }
+    - { tag: fastly, name: Fastly }
+    - { tag: jsdelivr, name: jsDelivr }
+    - { tag: cdn77, name: CDN77 }
+    - { tag: stackpath, name: StackPath }
+    - { tag: limelight, name: Limelight }
+    - imgix
+- id: storage
+  name: Файловые хранилища
+  tags:
+    - { tag: category-netdisk, name: Все хранилища, icon: lucide-globe }
+    - { tag: dropbox, name: Dropbox }
+    - { tag: onedrive, name: OneDrive }
+    - { tag: icloud, name: iCloud }
+    - { tag: mega, name: MEGA }
+    - { tag: terabox, name: TeraBox }
+    - { tag: pikpak, name: PikPak }
+- id: shopping
+  name: Магазины
+  tags:
+    - { tag: category-ecommerce, name: Все магазины, icon: lucide-globe }
+    - { tag: amazon, name: Amazon }
+    - { tag: ebay, name: eBay }
+    - { tag: ozon, name: Ozon }
+    - { tag: wildberries, name: Wildberries }
+    - { tag: avito, name: Avito }
+    - { tag: cian, name: Циан }
+    - { tag: autoru, name: Авто.ру }
+    - { tag: x5, name: X5 Group }
+    - { tag: magnit, name: Магнит }
+    - { tag: mvideo, name: М.Видео }
+    - { tag: funpay, name: FunPay }
+    - { tag: ggsel, name: GGSel }
+    - { tag: eneba, name: Eneba }
+    - { tag: flowwow, name: Flowwow }
+    - { tag: ikea, name: IKEA }
+    - { tag: nike, name: Nike }
+    - { tag: adidas, name: Adidas }
+    - { tag: booking, name: Booking.com, icon: bookingdotcom }
+    - { tag: airbnb, name: Airbnb }
+    - { tag: shopify, name: Shopify }
+    - { tag: walmart, name: Walmart }
+    - { tag: bestbuy, name: Best Buy }
+    - { tag: craigslist, name: Craigslist }
+    - { tag: aviasales, name: Aviasales }
+- id: finance
+  name: Финансы и криптовалюты
+  tags:
+    - { tag: category-finance, name: Все финансы, icon: lucide-globe }
+    - { tag: category-cryptocurrency, name: Все криптосервисы, icon: lucide-globe }
+    - { tag: paypal, name: PayPal }
+    - { tag: visa, name: Visa }
+    - { tag: mastercard, name: Mastercard }
+    - { tag: stripe, name: Stripe }
+    - { tag: wise, name: Wise }
+    - { tag: sber, name: Сбер, icon: sberbank }
+    - { tag: tbank-ru, name: Т-Банк, icon: tinkoff }
+    - { tag: binance, name: Binance }
+    - { tag: bybit, name: Bybit }
+    - { tag: okx, name: OKX }
+    - { tag: kraken, name: Kraken }
+    - { tag: ethereum, name: Ethereum }
+    - { tag: trustwallet, name: Trust Wallet }
+    - { tag: bestchange, name: BestChange }
+- id: education
+  name: Образование и наука
+  tags:
+    - { tag: category-scholar, name: Всё образование, icon: lucide-globe }
+    - { tag: google-scholar, name: Google Scholar, icon: googlescholar }
+    - { tag: sci-hub, name: Sci-Hub, icon: scihub }
+    - { tag: z-library, name: Z-Library, icon: zlibrary }
+    - { tag: libgen, name: Library Genesis }
+    - { tag: coursera, name: Coursera }
+    - { tag: udemy, name: Udemy }
+    - { tag: duolingo, name: Duolingo }
+    - { tag: khanacademy, name: Khan Academy }
+    - { tag: ieee, name: IEEE }
+    - { tag: elsevier, name: Elsevier }
+    - { tag: springer, name: Springer }
+    - { tag: cambridge, name: Cambridge }
+    - { tag: mit, name: MIT }
+    - { tag: doi, name: DOI }
+    - { tag: internet-archive, name: Internet Archive, icon: internetarchive }
+- id: forums
+  name: Форумы
+  tags:
+    - { tag: category-forums, name: Все форумы, icon: lucide-globe }
+    - { tag: habr, name: Habr }
+    - { tag: 4pda, name: 4PDA }
+    - { tag: dzen, name: Дзен }
+    - { tag: livejournal, name: LiveJournal }
+    - 2ch
+    - 4chan
+    - { tag: xda, name: XDA Developers, icon: xdadevelopers }
+    - { tag: linuxdo, name: Linux.do }
+    - { tag: nodeseek, name: NodeSeek }
+- id: security
+  name: Безопасность и сертификаты
+  tags:
+    - { tag: category-cas, name: Все УЦ, icon: lucide-globe }
+    - { tag: letsencrypt, name: Let's Encrypt }
+    - { tag: digicert, name: DigiCert }
+    - { tag: globalsign, name: GlobalSign }
+    - { tag: sectigo, name: Sectigo }
+    - { tag: amazontrust, name: Amazon Trust }
+    - { tag: google-trust-services, name: Google Trust Services, icon: google }
+    - { tag: category-antivirus, name: Все антивирусы, icon: lucide-globe }
+    - { tag: kaspersky, name: Kaspersky }
+    - { tag: drweb, name: Dr.Web }
+    - { tag: eset, name: ESET }
+    - { tag: bitwarden, name: Bitwarden }
+    - { tag: agilebits, name: 1Password, icon: 1password }
+    - { tag: lastpass, name: LastPass }
+    - { tag: haveibeenpwned, name: Have I Been Pwned }
+    - { tag: torproject, name: Tor Project }
+- id: platforms
+  name: Экосистемы и устройства
+  tags:
+    - { tag: google, name: Google }
+    - { tag: apple, name: Apple }
+    - { tag: microsoft, name: Microsoft }
+    - { tag: yandex, name: Яндекс }
+    - { tag: samsung, name: Samsung }
+    - { tag: xiaomi, name: Xiaomi IoT / Mi Home }
+    - { tag: nvidia, name: NVIDIA }
+    - { tag: intel, name: Intel }
+    - { tag: amd, name: AMD }
+    - { tag: google-play, name: Google Play, icon: googleplay }
+    - { tag: f-droid, name: F-Droid, icon: fdroid }
+    - { tag: apkpure, name: APKPure }
+- id: tools
+  name: Сервисы и утилиты
+  tags:
+    - { tag: duckduckgo, name: DuckDuckGo }
+    - { tag: firefox, name: Firefox, icon: firefoxbrowser }
+    - { tag: category-browser, name: Все браузеры, icon: lucide-globe }
+    - { tag: category-speedtest, name: Замер скорости, icon: lucide-globe }
+    - { tag: speedtest, name: Speedtest }
+    - { tag: ookla-speedtest, name: Ookla Speedtest, icon: speedtest }
+    - { tag: category-ip-geo-detect, name: Определение IP, icon: lucide-globe }
+    - { tag: category-ddns, name: Все DDNS, icon: lucide-globe }
+    - { tag: noip, name: No-IP }
+    - { tag: dynu, name: Dynu }
+    - { tag: category-doh, name: DNS over HTTPS, icon: lucide-globe }
+    - { tag: category-ntp, name: NTP-серверы, icon: lucide-globe }
+    - { tag: category-stun, name: STUN-серверы, icon: lucide-globe }
+    - { tag: category-urlshortner, name: Сокращатели ссылок, icon: lucide-globe }
+    - { tag: bitly, name: Bitly }
+    - { tag: tinyurl, name: TinyURL }
+    - { tag: tailscale, name: Tailscale }
+    - ngrok
+    - { tag: category-web-archive, name: Веб-архивы, icon: lucide-globe }
+    - { tag: archive, name: Archive.org, icon: internetarchive }
+    - { tag: archivetoday, name: archive.today }
+- id: ru
+  name: Российские сервисы
+  tags:
+    - { tag: category-ru, name: Все российские сервисы, icon: lucide-globe }
+    - { tag: itDog-russia-inside, name: Доступны только из РФ, icon: lucide-globe }
+    - { tag: itDog-russia-outside, name: Недоступны из РФ, icon: lucide-globe }
+    - { tag: category-gov-ru, name: Госуслуги и ведомства, icon: lucide-globe }
+    - { tag: category-bank-ru, name: Банки РФ, icon: lucide-globe }
+    - { tag: category-ecommerce-ru, name: Магазины РФ, icon: lucide-globe }
+    - { tag: category-retail-ru, name: Ритейл РФ, icon: lucide-globe }
+    - { tag: category-media-ru, name: СМИ РФ, icon: lucide-film }
+    - { tag: category-entertainment-ru, name: Развлечения РФ, icon: lucide-film }
+    - { tag: category-tech-media-ru, name: IT-медиа РФ, icon: lucide-globe }
+    - { tag: category-travel-ru, name: Путешествия РФ, icon: lucide-globe }
+    - { tag: category-betting-ru, name: Ставки РФ, icon: lucide-globe }
+    - { tag: mosmetro, name: Московское метро }
+- id: adult
+  name: 18+
+  sensitive: true
+  tags:
+    - { tag: category-porn, name: Всё 18+, icon: lucide-globe }
