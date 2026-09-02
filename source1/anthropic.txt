@@ -1,0 +1,11 @@
+160.79.104.0/23
+2607:6bc0:11::/48
+2607:6bc0::/48
+anthropic.com
+clau.de
+claude.ai
+claude.com
+claudemcpclient.com
+claudemcpcontent.com
+claudeusercontent.com
+servd-anthropic-website.b-cdn.net

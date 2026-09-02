@@ -1,0 +1,2 @@
+lede-project.org
+openwrt.org

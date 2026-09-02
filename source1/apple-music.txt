@@ -1,0 +1,17 @@
+amp-api-edge.music.apple.com
+amp-api.music.apple.com
+applemusic.berlin
+applemusic.co
+applemusic.com
+applemusic.com.au
+applemusic.hamburg
+applemusic.wang
+applemusicconnect.com
+applemusicfestival.com
+js-cdn.music.apple.com
+music.apple.com
+musickit.net
+musicstatus.music.apple.com
+play.music.apple.com
+speedysub.music.apple.com
+wwwapplemusic.com
