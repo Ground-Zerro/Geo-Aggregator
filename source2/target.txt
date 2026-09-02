@@ -1,0 +1,2 @@
+target.com
+targetimg1.com

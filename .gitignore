@@ -1,0 +1,6 @@
+temp/
+temp_dat/
+concept.md
+docs/
+__pycache__/
+.claude/
