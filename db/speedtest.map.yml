@@ -1,0 +1,22 @@
+- { country: RU, city: Москва, owner: Hostkey, iperf3: { host: spd-rudp.hostkey.ru, ports: "5201" }, librespeed: { dl: "http://spd-rudp.hostkey.ru/garbage", ul: "http://spd-rudp.hostkey.ru/empty", ping: "http://spd-rudp.hostkey.ru/empty" } }
+- { country: RU, city: Москва, owner: МТС, iperf3: { host: mskst.st.mtsws.net, ports: "3333" } }
+- { country: RU, city: Калининград, owner: Билайн, iperf3: { host: speedtest-kaliningrad-01.corbina.net, ports: "5201" } }
+- { country: RU, city: Санкт-Петербург, owner: Дом.ру, iperf3: { host: st.spb.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Нижний Новгород, owner: Дом.ру, iperf3: { host: st.nn.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Казань, owner: Дом.ру, iperf3: { host: st.kzn.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Самара, owner: Дом.ру, iperf3: { host: st.samara.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Ростов-на-Дону, owner: Дом.ру, iperf3: { host: st.rostov.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Волгоград, owner: Дом.ру, iperf3: { host: st.volgograd.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Челябинск, owner: Дом.ру, iperf3: { host: st.chel.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Омск, owner: Дом.ру, iperf3: { host: st.omsk.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Красноярск, owner: Дом.ру, iperf3: { host: st.krsk.ertelecom.ru, ports: "5203" } }
+- { country: RU, city: Иркутск, owner: Дом.ру, iperf3: { host: st.irkutsk.ertelecom.ru, ports: "5203" } }
+- { country: NL, city: Амстердам, owner: Eranium, iperf3: { host: iperf-ams-nl.eranium.net, ports: "5201-5210" } }
+- { country: DE, city: Франкфурт, owner: Leaseweb, iperf3: { host: speedtest.fra1.de.leaseweb.net, ports: "5201-5210" }, file: "http://speedtest.fra1.de.leaseweb.net/1000mb.bin" }
+- { country: GB, city: Лондон, owner: Clouvider, iperf3: { host: lon.speedtest.clouvider.net, ports: "5200-5209" }, file: "https://lon.speedtest.clouvider.net/1g.bin" }
+- { country: FI, city: Хельсинки, owner: Telia, iperf3: { host: speedtest.extra.telia.fi, ports: "5201-5208" } }
+- { country: UZ, city: Ташкент, owner: Uztelecom, iperf3: { host: speedtest.uztelecom.uz, ports: "5200-5209" } }
+- { country: SG, city: Сингапур, owner: Leaseweb, iperf3: { host: speedtest.sin1.sg.leaseweb.net, ports: "5201-5210" }, file: "http://speedtest.sin1.sg.leaseweb.net/1000mb.bin" }
+- { country: US, city: Нью-Йорк, owner: Leaseweb, iperf3: { host: speedtest.nyc1.us.leaseweb.net, ports: "5201-5210" }, file: "http://speedtest.nyc1.us.leaseweb.net/1000mb.bin" }
+- { country: US, city: Лос-Анджелес, owner: Clouvider, iperf3: { host: la.speedtest.clouvider.net, ports: "5200-5209" }, file: "https://la.speedtest.clouvider.net/1g.bin" }
+- { country: BR, city: Сан-Паулу, owner: Edgoo, iperf3: { host: speedtest.sao1.edgoo.net, ports: "9204-9240" } }
