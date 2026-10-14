@@ -1,0 +1,10 @@
+a.ppy.sh
+assets.ppy.sh
+c.ppy.sh
+lazer.ppy.sh
+m1.ppy.sh
+notify.ppy.sh
+osu.ppy.sh
+ppy.sh
+sentry.ppy.sh
+spectator.ppy.sh

@@ -1,0 +1,3 @@
+amp-api.podcasts.apple.com
+applepodcasts.com
+podcasts.apple.com
