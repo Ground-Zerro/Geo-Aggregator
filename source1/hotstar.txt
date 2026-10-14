@@ -1,0 +1,6 @@
+akamaized.net
+hotstar-cdn.net
+hotstar-labs.com
+hotstar.com
+hotstarext.com
+hsprepack.akamaized.net
